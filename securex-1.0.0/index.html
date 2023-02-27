@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Squad24 - CCTV Camera Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5">
+        <div class="row gx-4 d-none d-lg-flex">
+            <div class="col-lg-6 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-map-marker-alt text-white"></small>
+                    </div>
+                    <small>Near,Emef Police Station,Mataheko-Afienya</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-envelope-open text-white"></small>
+                    </div>
+                    <small><a href="mailto:admin@squad24.com">admin@squad24.com</a></small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-phone-alt text-white"></small>
+                    </div>
+                    <small><a href="tel:425 520-8618">425 520-8618</a></small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="far fa-clock text-white"></small>
+                    </div>
+                    <small>Mon - Fri : 9AM - 9PM</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h1 class="m-0 text-primary"> Squad24 </h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="project.html" class="nav-item nav-link">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                    class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution
+                                    For You</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href=""
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free
+                                    Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For
+                                    All Business</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <a href=""
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free
+                                    Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For
+                                    Security System</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
+                                    at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
+                                    elitr.</p>
+                                <a href=""
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free
+                                    Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle"
+                                style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">01</h1>
+                        </div>
+                        <h5 class="text-white">Home Security</h5>
+                        <hr class="w-25">
+                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo
+                            clita et</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle"
+                                style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">02</h1>
+                        </div>
+                        <h5 class="text-white">Access Control</h5>
+                        <hr class="w-25">
+                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo
+                            clita et</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 bg-dark p-4 p-xl-5">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="btn-square rounded-circle"
+                                style="width: 64px; height: 64px; background: #000000;">
+                                <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                            </div>
+                            <h1 class="display-1 mb-0" style="color: #000000;">03</h1>
+                        </div>
+                        <h5 class="text-white">24/7 Support</h5>
+                        <hr class="w-25">
+                        <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo
+                            clita et</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-4">About Us</h1>
+                        <p class="mb-4 pb-2">Squad24 Security forces Services is a leading provider of top-notch
+                            security guard services. With over a decade of military experience of its leadership coupled
+                            with private investigations track record in the industry, we have established a reputation
+                            for delivering effective and reliable security solutions to businesses and organizations
+                            across various industries.<span id="dots_8">....</span><span id="more_8"> Our team of
+                                highly trained and experienced security professionals
+                                is dedicated to providing top-quality services to ensure the safety and security of our
+                                clients and their assets. Our security guards
+                                are equipped with the latest technology and trained to handle any security situation. We
+                                also conduct thorough background checks and continuous training to ensure that our
+                                guards meet the highest standards of professionalism and competency.
+                                At Squad24, we understand the unique security needs of each of our clients and tailor
+                                our services to meet those needs. Our goal is to provide peace of mind and ensure that
+                                our clients can focus on their business operations without worrying about security
+                                threats.
+                                We are committed to providing our clients with exceptional customer service, and our
+                                team is available 24/7 to respond to any security concerns or emergencies.
+                                Choose Squad24 Security Forces for a safer and secure tomorrow."
+                            </span>
+                        </p>
+                        <div class="row g-4 mb-4 pb-3">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                        <p class="fw-medium text-primary mb-0">Happy Clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                        <p class="fw-medium text-primary mb-0">Projects Done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button onclick="myFunction_8()" id="btn_8">Explore more</button>
+                        <!-- <a href="" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Our Services</h1>
+            </div>
+
+            <div class="box">
+                <div class="row">
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3> 01 </h3>
+                        <h2> custumer centric service </h2>
+                        <p>We build a safer place for your business environment, residence and so on focusing on
+                            providing services that meet the specific needs and expectations tailored to our clients’
+                            needs. We like to build strong and long-lasting relationships with our clients hence we keep
+                            records reports and routine activities, our daily routine includes:
+                            1. Customizable security plans: Tailored security solutions based on the client's specific
+                            requirements and budget.
+                            <span id="dots_1">....</span><span id="more_1">
+                                2. Regular communication and updates: Regular check-ins with clients to discuss security
+                                concerns and updates on the status of their security plan.
+                                3. Flexible scheduling: The ability for clients to adjust security schedules or request
+                                additional security coverage as needed.
+                                4. Rapid response times: Quick response times to client requests, concerns, or
+                                emergencies.
+                                5. Employee training: Regular training for security personnel to ensure they are
+                                equipped to handle a wide range of situations.
+                                6. Technology integration: The use of technology to enhance security services, such as
+                                security cameras, access control systems, and incident reporting tools.
+                                7. Customer support: A dedicated customer support team available 24/7 to answer client
+                                questions and address any concerns.
+                            </span>
+                        </p>
+                        <button onclick="myFunction_1()" id="btn_1">Read more</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3> 02 </h3>
+                        <h2> Risk Assessment Services </h2>
+                        <p>From risk assessments and security audits to crisis management planning and more, our
+                            services are designed to help our clients identify potential security threats and
+                            To serve our clients better, Squad24 provides different teams for each service which makes
+                            it a division. Risk Assessment Services is a division of Squad24, specially trained for risk
+                            assessment.
+                            With a focus on identifying and mitigating potential security risks, Squad24 Security
+                            forces<span id="dots_2">....</span><span id="more_2">
+                                Risk Assessment Services offers comprehensive risk assessments to businesses and
+                                organizations of all sizes.Our team of
+                                security experts has extensive experience in various industries and is dedicated to
+                                providing customized security solutions to meet the unique needs of each of our clients.
+                                develop a plan to respond to emergencies.
+                                At Squad24, we believe that effective security starts with a thorough understanding of
+                                our clients' operations and assets. That's why we work closely with our clients to
+                                assess their specific security needs and develop a tailored security plan that is
+                                aligned with their goals and objectives.
+                                Our team is proud to be a part of Squad24 Security forces and are committed to providing
+                                the same high-quality service and support that our clients have come to expect. Whether
+                                you're looking to enhance your current security measures or start from scratch, Squad24
+                                Security forces Security Consulting Services is here to help. Contact us today to learn
+                                more about our security consulting services."
+                            </span>
+                        </p>
+                        <button onclick="myFunction_2()" id="btn_2">Read more</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3> 03 </h3>
+                        <h2> Event Security Services </h2>
+                        <br>
+                        <p>"Squad24 Security forces Special Event Security Services is an elite division of
+                            organization, specifically trained for events and important gatherings. With a focus on
+                            providing security solutions for special events, Squad24 Security forces Special Event
+                            Security Services offers comprehensive security solutions to event organizers, promoters,
+                            and attendees.Our team of experienced
+                            security professionals is dedicated to ensuring <span id="dots_3">....</span><span
+                                id="more_3">the safety and security of special
+                                events, including concerts, festivals, sports events, political rallies, and more. We
+                                understand that no two events are the same, and we work closely with event organizers to
+                                understand their specific security needs and develop a customized security plan to meet
+                                those needs.
+                                Our services include crowd control, VIP protection, perimeter security, and more. Our
+                                security guards are equipped with the latest technology and training to handle any
+                                security situation, and we also conduct thorough background checks and continuous
+                                training to ensure that our guards meet the highest standards of professionalism and
+                                competency.
+                                Our goal is to provide peace of mind for event organizers and attendees alike. Whether
+                                you're organizing a large-scale festival or a smaller event, we have the experience and
+                                expertise to help ensure that your event is safe and secure.
+                                Contact Squad24 Security Forces Special Event Division today to learn more about how we
+                                can help secure your next event."
+                            </span>
+                        </p>
+                        <button onclick="myFunction_3()" id="btn_3">Read more</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3> 04 </h3>
+                        <h2> Security Consulting Services </h2>
+                        <p>"Squad24 Security forces Security Consulting Services is a division of Squad24 Security
+                            forces Security Services, a leading provider of security guard services. With a focus on
+                            providing comprehensive security solutions to businesses and organizations, Squad24 Security
+                            forces Security Consulting Services offers a wide range of security consulting
+                            servicesdesigned to enhance the overall security posture of our clients.
+                            Our team of security experts has <span id="dots_4">....</span><span id="more_4"> extensive
+                                experience in various industries and is dedicated to providing customized security
+                                solutions to meet the unique needs of each of our clients. From risk assessments and
+                                security audits to crisis management planning and more, our services are designed to
+                                help our clients identify potential security threats and develop a plan to respond to
+                                emergencies.
+                                At Squad24, we believe that effective security starts with a thorough understanding of
+                                our clients' operations and assets. That's why we work closely with our clients to
+                                assess their specific security needs and develop a tailored security plan that is
+                                aligned with their goals and objectives.
+                                Our team is proud to be a part of Squad24 Security forces and are committed to providing
+                                the same high-quality service and support that our clients have come to expect. Whether
+                                you're looking to enhance your current security measures or start from scratch, Squad24
+                                Security forces Security Consulting Services is here to help. Contact us today to learn
+                                more about our security consulting services."
+                            </span>
+                        </p>
+                        <button onclick="myFunction_4()" id="btn_4">Read more</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3> 05 </h3>
+                        <h2> Surveillance Services </h2>
+                        <br>
+                        <p>"Squad24 Security Forces Surveillance team is a division of with expertise in cybercrime,
+                            ethical hacking and a pro in surveillance systems. With a focus on providing advanced
+                            surveillance solutions to businesses and organizations, Squad24 Security forces Surveillance
+                            Services offers a wide range of surveillance services designed to enhance the overall
+                            security posture of our clients.
+                            Our team of surveillance experts is equipped with the <span id="dots_5">....</span><span
+                                id="more_5"> latest technology and training to
+                                provide high-quality surveillance services,
+                                including remote monitoring, video analytics, and more. Whether you're looking to secure
+                                your perimeter, monitor high-traffic areas, or simply keep a watchful eye on your
+                                property, our surveillance services are designed to meet your specific needs.
+                                At Squad24 Security Forces Surveillance Services, we understand the importance of being
+                                able to quickly respond to security incidents and potential threats. That's why we
+                                provide real-time monitoring and alerts to ensure that any security incidents are
+                                addressed immediately. Our team of surveillance experts also provides detailed reporting
+                                and analytics to help you understand what's happening on your property and make informed
+                                decisions about your security needs.
+                                If you're looking for a reliable and experienced partner to help you enhance your
+                                surveillance capabilities, look no further than Squad24 Security forces Surveillance
+                                Services. Contact us today to learn more about our surveillance services."
+                                Take Care of Your Life, Property & Family with our Security Services
+                            </span>
+                        </p>
+                        <button onclick="myFunction_5()" id="btn_5">Read more</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3> 06 </h3>
+                        <h2>Close Protection Services </h2>
+                        <p>"Squad24 Security forces Close Protection Services is a special division with highly trained
+                            individuals with athletic physics and strong minded for body guarding services. With a focus
+                            on providing top-level security for high-profile individuals, Squad24 Security Forces Close
+                            Protection Services offers comprehensive close protection services for executives,
+                            celebrities, politicians, and other high-risk individuals. Our team of experienced close
+                            <span id="dots_6">....</span><span id="more_6"> protection officers are specially trained in
+                                advanced security techniques and are equipped to handle a variety of security threats.
+                                Whether you're traveling abroad, attending high-profile events, or simply need added
+                                security in your daily life, our close protection officers are available 24/7 to provide
+                                the security and peace of mind you need.
+                                We understand the unique security needs of high-profile individuals and are dedicated to
+                                providing customized security solutions to meet those needs. Our close protection
+                                officers are highly trained in threat assessment, protective tactics, and emergency
+                                response, and they work closely with our clients to understand their specific security
+                                requirements.
+                                Whether you're looking for a single close protection officer or a team of officers for a
+                                large event, Squad24 Security forces Close Protection Services has the experience and
+                                expertise to meet your needs. Contact us today to learn more about our close protection
+                                services."
+                                about our close protection services."
+                            </span>
+                        </p>
+                        <button onclick="myFunction_6()" id="btn_6">Read more</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h3> 07 </h3>
+                        <h2> Take Care of Your Life, Property & Family with our Security Services </h2>
+                        <p>We are not only here to serve companies, we understand many residences and individuals
+                            require highly trained security personnels to take care of themselves, families and
+                            properties, hence we have subdivided our service and specially trained guards for
+                            residentials demands. These officers are trained with high customer service values and human
+                            relations to have empathy for their host families and property managers. We edge realtors to
+                            seek the service of this division for a wonderful experience. Below is an outlines services
+                            we provide under this division:1. Personal
+                            protection: Bodyguards and close protection services for<span id="dots_7">....</span><span
+                                id="more_7"> individuals who may face
+                                high-risk situations or personal threats.
+                                2. Residential security: Monitoring and securing homes, providing patrols and response
+                                services in case of an emergency.
+                                3. Family security: Tailored security plans for families, including children and elderly
+                                family members, to ensure their safety and well-being.
+                                4. Property protection: Monitoring and protecting commercial and residential properties,
+                                including vacant properties, to deter theft and vandalism.
+                                5. Event security: Providing security for events, such as weddings, parties, and
+                                corporate events, to ensure the safety of attendees and the event itself.
+                                6. Travel security: Providing security services for individuals and families traveling
+                                domestically or internationally, including personal protection, transportation, and
+                                pre-trip assessments.
+                                7. Emergency response: Rapid response teams to handle emergencies and provide medical
+                                assistance, fire response, and evacuation services.
+                            </span>
+                        </p>
+                        <button onclick="myFunction_7()" id="btn_7">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-0 service-row">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Commercial CCTV System</h4>
+                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Finger Print Access</h4>
+                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Fire Detection And Safety</h4>
+                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Smart Home Security</h4>
+                        <p class="mb-4">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">Why Choose Us</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
+                            amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat
+                            amet</p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Trusted</p>
+                                        <h5 class="mb-0">Security</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Quality</p>
+                                        <h5 class="mb-0">Services</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">Smart</p>
+                                        <h5 class="mb-0">Systems</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
+                                        <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-primary mb-2">24/7 Hours</p>
+                                        <h5 class="mb-0">Support</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Our Projects</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Complete Projects</li>
+                        <li class="mx-2" data-filter=".second">Ongoing Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Business Security</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Business Security</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-1.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Fire Detection</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Fire Detection</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-2.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Access Control</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Access Control</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-3.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Alarm Systems</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Alarm Systems</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-4.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">CCTV & Video</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">CCTV & Video</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-5.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Smart Home</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Smart Home</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-6.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i
+                                        class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">Free Quote</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
+                            amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat
+                            amet</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name"
+                                        style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email"
+                                        style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile"
+                                        style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Get A Free Quote</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden position-relative">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Testimonial</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>">
+                    <p class="fs-5">As an AI language model, I do not have personal experiences to provide a
+                        testimonial. However, I can provide information about the importance of security in various
+                        fields such as cybersecurity, physical security, and information security.</p>
+                    <h4>Client Name</h4>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>">
+                    <p class="fs-5">Physical security refers to the protection of people, assets, and property from
+                        physical threats such as theft, vandalism, or terrorism. It includes the implementation of
+                        access controls, surveillance systems, and emergency response plans to prevent and respond to
+                        potential threats.</p>
+                    <h4>Client Name</h4>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>">
+                    <p class="fs-5">Overall, security plays a crucial role in ensuring safety and preventing potential
+                        harm to individuals, organizations, and governments. It is essential to stay informed about the
+                        latest security threats and best practices to mitigate potential risks.
+                    </p>
+                    <h4>Client Name</h4>
+                    <span class="text-primary">Profession</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <!---  <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>-->
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Near,Emef Police Station,Mataheko-Afienya</p>
+                    <p class="mb-2"><a href="tel:425 520-8618"><i class="fa fa-phone-alt me-3"></i>425 520-8618</a></p>
+                    <p class="mb-2"><a href="mailto: admin@squad24.com"><i
+                                class="fa fa-envelope me-3"> admin@squad24.com</i></a></p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Services</h5>
+                    <a class="btn btn-link" href="">Business Security</a>
+                    <a class="btn btn-link" href="">Fire Detection</a>
+                    <a class="btn btn-link" href="">Alarm Systems</a>
+                    <a class="btn btn-link" href="">CCTV & Video</a>
+                    <a class="btn btn-link" href="">Smart Home</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Newsletter</h5>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid py-4" style="background: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                 <!--   Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br>Distributed By
+                    <a class="border-bottom" href="https://themewagon.com/">Themewagon</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
